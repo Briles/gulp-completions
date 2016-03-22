@@ -2,23 +2,23 @@
     "scope": "source.js",
     "completions": [
         {
-            "trigger": "gulp.src(globs[, options])\t _ gulp",
+            "trigger": "gulp.src(globs[, options])\tgulp",
             "contents": "gulp.src(${1:globs}${2:[, options]});$0"
         },
         {
-            "trigger": "gulp.dest(paths[, options])\t _ gulp",
+            "trigger": "gulp.dest(paths[, options])\tgulp",
             "contents": "gulp.dest(${1:paths}${2:[, options]});$0"
         },
         {
-            "trigger": "gulp.task(name [, deps, fn])\t _ gulp",
+            "trigger": "gulp.task(name [, deps, fn])\tgulp",
             "contents": "gulp.task(${1:name} ${2:[, deps, fn]});$0"
         },
         {
-            "trigger": "gulp.watch(glob [, opts], tasks)\t _ gulp",
+            "trigger": "gulp.watch(glob [, opts], tasks)\tgulp",
             "contents": "gulp.watch(${1:glob} ${2:[, opts]}, ${3:tasks});$0"
         },
         {
-            "trigger": "gulp.watch(glob [, opts, cb])\t _ gulp",
+            "trigger": "gulp.watch(glob [, opts, cb])\tgulp",
             "contents": "gulp.watch(${1:glob} ${2:[, opts, cb]});$0"
         },
     ]
